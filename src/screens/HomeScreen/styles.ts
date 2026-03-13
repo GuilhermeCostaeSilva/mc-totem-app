@@ -6,21 +6,22 @@ export const styles = StyleSheet.create({
   mcIcon: { width: 100, height: 100 },
   restaurantName: {
     fontSize: 24,
-    fontWeight: 'bold',
     textAlign: 'center',
     paddingTop: 20,
+    fontFamily: 'Poppins-Bold'
   },
   homeDescriptionContainer: {
     justifyContent: 'center',
     alignItems: 'center',
     paddingTop: 100,
   },
-  title: { fontSize: 28, fontWeight: 'bold', marginBottom: 10 },
+  title: { fontSize: 28,  marginBottom: 10, fontFamily: 'Poppins-Bold' },
   homeDescription: {
     fontSize: 18,
     color: '#7E8392',
     paddingBottom: 50,
     textAlign: 'center',
+    fontFamily: 'Poppins-Regular'
   },
   orderContainer: {
     flexDirection: 'row',
@@ -35,6 +36,7 @@ export const styles = StyleSheet.create({
     borderColor: '#E1E1E6',
     borderWidth: 1,
     borderRadius: 10,
+    
   },
   takeOut: {
     justifyContent: 'center',
@@ -51,6 +53,7 @@ export const styles = StyleSheet.create({
     backgroundColor: '#e7e5e4',
     borderRadius: 10,
     padding: 6,
+    fontFamily: 'Poppins-Regular'
   },
   takeOutText: {
     textAlign: 'center',
@@ -60,5 +63,6 @@ export const styles = StyleSheet.create({
     backgroundColor: '#e7e5e4',
     borderRadius: 10,
     padding: 6,
+    fontFamily: 'Poppins-Regular'
   },
 });

@@ -23,7 +23,7 @@ export const HomeScreen: React.FC = () => {
         <TouchableOpacity>
           <View style={styles.takeIn}>
             <Image source={McBurguer} />
-            <Text style={styles.takeInText}>Para comer aqui</Text>
+            <Text style={styles.takeInText}>Comer aqui</Text>
           </View>
         </TouchableOpacity>
         <TouchableOpacity>
